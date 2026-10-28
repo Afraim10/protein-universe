@@ -6,6 +6,7 @@ An undergraduate's exploration of molecular biology through scientific illustrat
 
 ## Start here
 
+- **Gallery:** [Protein Universe website](https://afraim10.github.io/protein-universe/)
 - **Browse:** [Poster catalog](CATALOG.md)
 - **Create:** [Beginner's guide](docs/GETTING_STARTED.md)
 - **Understand the limits:** [Scientific review notes](docs/SCIENTIFIC_REVIEW.md)
@@ -21,6 +22,8 @@ Working with Codex and image generation, I developed a reusable workflow for cho
 The visual inspiration is [Kurzgesagt — In a Nutshell](https://kurzgesagt.org/). This independent project is not affiliated with or endorsed by Kurzgesagt. A reusable AI skill does not reproduce the expertise and craft of their designers. Original Kurzgesagt poster images are not distributed here.
 
 ## What this contains
+
+`gallery/` builds the independent static gallery. GitHub Actions generates responsive WebP previews, preserves full-resolution PNG downloads, checks links and file integrity, and deploys to GitHub Pages. See [gallery maintenance](gallery/README.md).
 
 The skill is at `.agents/skills/artifact-template-protein-universe-posters/`. It includes instructions, visual references from this generated series, a design specification, and review guidance. It does not include an image model, API credentials, or free access to a generation service.
 
