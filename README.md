@@ -6,7 +6,7 @@ An undergraduate's exploration of molecular biology through scientific illustrat
 
 ## Start here
 
-- **Gallery:** [Protein Universe website](https://afraim10.github.io/protein-universe/)
+- **Gallery:** [Protein Universe website](https://posters.afraim.me/)
 - **Browse:** [Poster catalog](CATALOG.md)
 - **Create:** [Beginner's guide](docs/GETTING_STARTED.md)
 - **Understand the limits:** [Scientific review notes](docs/SCIENTIFIC_REVIEW.md)

@@ -1,0 +1,33 @@
+/* The Fold identity, adapted for the independent art collection. */
+@font-face{font-family:Geist;src:url('fonts/geist-latin-400-normal.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Geist;src:url('fonts/geist-latin-500-normal.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:Geist;src:url('fonts/geist-latin-600-normal.woff2') format('woff2');font-weight:600 800;font-display:swap}
+@font-face{font-family:'Geist Mono';src:url('fonts/geist-mono-latin-400-normal.woff2') format('woff2');font-weight:400 700;font-display:swap}
+@font-face{font-family:'Instrument Serif';src:url('fonts/instrument-serif-latin-400-normal.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'Instrument Serif';src:url('fonts/instrument-serif-latin-400-italic.woff2') format('woff2');font-weight:400;font-style:italic;font-display:swap}
+:root{--bg:#080a0f;--panel:#0e121a;--ink:#e8ecf4;--muted:#8a93a6;--line:#1e2736;--accent:#65cbf3;--coral:#ff7d45;font-family:Geist,Arial,sans-serif}
+::selection{background:var(--accent);color:var(--bg)}
+.wrap{width:min(1280px,calc(100% - 112px))}.site-header{min-height:108px}
+.brand{display:flex;align-items:center;gap:16px;padding-left:0;font-weight:400;letter-spacing:0;line-height:1.2}
+.brand-mark{position:static;font:39px/1 'Instrument Serif',serif;letter-spacing:-.13em;color:var(--ink)}.brand-mark span{color:var(--accent)}
+.brand-label{font-size:14px}.brand-second{display:block;font:9px/1.6 'Geist Mono',monospace;color:var(--muted);letter-spacing:.02em;margin-top:5px}
+nav{gap:29px;font-size:13px}nav a{color:var(--muted)}nav a:hover{color:var(--ink)}.portfolio{color:var(--accent)}
+.hero{gap:6%;padding-top:88px;padding-bottom:65px}.hero h1{font:400 clamp(65px,6.2vw,96px)/.98 'Instrument Serif',serif;letter-spacing:-.025em;margin-block:24px 28px}.hero em{font-family:'Instrument Serif',serif;color:var(--ink)}
+.eyebrow,.card-meta,.hero-foot,.art-caption,.principles>span,.frame-heading,.next-poster>span,.footer-title{font-family:'Geist Mono',monospace;font-weight:400;letter-spacing:.04em}
+.eyebrow{color:var(--muted);font-size:10px}.status-dot{background:var(--accent);width:5px;height:5px}.intro{color:var(--muted)}
+.hero-art{transform:none;box-shadow:none;border:1px solid var(--line);background:var(--panel);padding:18px 18px 0;position:relative}
+.frame-heading{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:10px;padding-bottom:14px}.frame-heading>span:last-child{font-size:22px;color:var(--accent)}
+.art-caption{background:transparent;padding:14px 0;color:var(--muted);font-size:10px}.hero-foot span{color:var(--accent)}
+.button{border-radius:2px;font-weight:500}.primary{background:var(--accent);color:var(--bg)}.primary:hover{background:#91ddfb;color:var(--bg)}
+.text-link{text-decoration:none;border-bottom:1px solid var(--line);width:fit-content;padding-bottom:4px}.principles p{font-family:'Instrument Serif',serif;font-size:23px}
+h2,.skill-panel h3,.next-poster strong{font-family:'Instrument Serif',serif;font-weight:400;letter-spacing:-.02em}
+h2{font-size:clamp(42px,4.7vw,66px)}.section-heading .eyebrow,.create .eyebrow,.reuse .eyebrow{display:flex;align-items:center;gap:16px}.section-index{font:40px/1 'Instrument Serif',serif;color:var(--accent)}
+.filters button{border-radius:2px;font-size:11px;font-family:'Geist Mono',monospace}.filters button[aria-pressed=true]{background:var(--panel);color:var(--accent);border-color:var(--accent)}
+.poster-frame{background:var(--panel);border-color:var(--line)}.poster-frame img{filter:none}.view-label{background:#080a0fee;color:var(--muted)}.card-meta{color:var(--muted);font-size:9px}.poster-card h3{font-weight:500;font-size:21px;letter-spacing:-.02em}.poster-card p{line-height:1.7}
+.skill-panel{border:1px solid var(--line);border-top:1px solid var(--accent)}.skill-panel h3{font-size:46px}.reuse h2{font-size:43px}.reuse h3{font-family:'Instrument Serif',serif;font-size:31px;font-weight:400}
+.detail-art{background:var(--panel)}.detail-copy h1{font:400 clamp(43px,4.3vw,64px)/1.04 'Instrument Serif',serif;letter-spacing:-.02em}.detail-copy dl{font-family:'Geist Mono',monospace}.science-note{border-color:var(--accent)}.next-poster strong{font-size:31px}
+footer{color:var(--muted)}.footer-title{font-size:11px}.detail-copy .button{font-family:Geist,sans-serif}
+@media(max-width:1050px){.wrap{width:calc(100% - 64px)}.hero h1{font-size:67px}.hero{gap:5%}.brand-second{font-size:8px}.detail-copy h1{font-size:43px}}
+@media(max-width:680px){.wrap{width:calc(100% - 40px)}.site-header{min-height:103px;gap:12px}.brand-mark{font-size:33px}.brand{gap:12px}.brand-label{font-size:12px}.brand-second{font-size:7px;max-width:145px}.site-header nav{gap:13px;font-size:10px}.hero{padding-top:37px;padding-bottom:40px}.hero h1{font-size:clamp(56px,15vw,78px)}.hero .eyebrow{font-size:8px}.hero-art{width:100%;box-shadow:none;padding:12px 12px 0}.hero .intro{font-size:16px}.principles p{font-size:21px}.section-heading h2{font-size:43px}.create h2{font-size:43px}.reuse h2{font-size:39px}.skill-panel h3{font-size:42px}.detail-copy h1{font-size:44px}.frame-heading{font-size:9px}.art-caption{font-size:8px}.hero-foot{font-size:10px}.hero-foot span{margin-inline:5px}}
+@media(max-width:380px){.brand-second{max-width:110px}.site-header nav{gap:9px;font-size:9px}.hero h1{font-size:54px}}
+@media(max-width:680px){.site-header{flex-wrap:wrap;padding-block:15px 10px;gap:12px}.brand-second{font-size:9px;max-width:none}.site-header nav{width:100%;justify-content:space-between;gap:10px;font-size:11px}.site-header .portfolio{display:block}.site-header nav a{padding-block:4px}}

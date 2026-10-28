@@ -2,6 +2,8 @@
 
 This standalone static gallery is hosted by GitHub Pages. It does not depend on or modify the portfolio application.
 
+The live address is https://posters.afraim.me. Its visual identity follows the portfolio’s near-black/cyan palette, Instrument Serif display type, Geist body type, Geist Mono metadata, thin rules and af monogram. `identity.css` adapts these for a static gallery. Font binaries are self-hosted, with their SIL Open Font License notices retained. The gallery does not load the portfolio’s ambient renderer or interactive runtime.
+
 ## Local build
 
 Use Python 3.12 or newer:
