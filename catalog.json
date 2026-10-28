@@ -188,5 +188,56 @@
       "sha256": "8ca6ba8b58cbb072c6bace2e6d374704f1e20bbaec00e3dc200be260ba0d33de",
       "updated": "2026-10-28"
     }
+  },
+  {
+    "id": "chromosome-anchor",
+    "title": "The Chromosome Anchor — Human Kinetochore",
+    "image": "posters/chromosome-anchor/kinetochore.png",
+    "notes": "posters/chromosome-anchor/art-direction-and-prompts.md",
+    "featured": false,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "kinetochore.png",
+      "width": 4096,
+      "height": 6144,
+      "bytes": 2868762,
+      "sha256": "cf9d5d3ffd545efa42b9b07d66f0d0214bf5d2293686a6c93cd7597bc2a50024",
+      "updated": "2026-10-29"
+    }
+  },
+  {
+    "id": "living-propeller",
+    "title": "The Living Propeller — Bacterial Flagellum",
+    "image": "posters/living-propeller/flagellar_complex.png",
+    "notes": "posters/living-propeller/art-direction-and-prompts.md",
+    "featured": false,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "flagellar_complex.png",
+      "width": 4096,
+      "height": 6144,
+      "bytes": 2761389,
+      "sha256": "cb02ab6ee9b2e5c5259ee408af5bea0ec29e98e17c8ab0afaab4cc03da995b74",
+      "updated": "2026-10-29"
+    }
+  },
+  {
+    "id": "final-breach",
+    "title": "The Final Breach — Membrane Attack Complex",
+    "image": "posters/final-breach/memb_attack_complex.png",
+    "notes": "posters/final-breach/art-direction-and-prompts.md",
+    "featured": false,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "memb_attack_complex.png",
+      "width": 5964,
+      "height": 4220,
+      "bytes": 3090456,
+      "sha256": "f302affdd035aa201beee2acc8994cf199f8527e9da7533a6a929fdbb280c10b",
+      "updated": "2026-10-29"
+    }
   }
 ]

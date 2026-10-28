@@ -67,3 +67,21 @@ AI-assisted schematic illustrations. Read the accompanying notes before educatio
 ![The Genome Duplicator — Human Replisome](posters/genome-duplicator/human-replisome-landscape-v1.png)
 
 [Download PNG](posters/genome-duplicator/human-replisome-landscape-v1.png) · [Sources, prompts and limitations](posters/genome-duplicator/art-direction-and-prompts.md)
+
+## The Chromosome Anchor — Human Kinetochore
+
+![The Chromosome Anchor — Human Kinetochore](posters/chromosome-anchor/kinetochore.png)
+
+[Download PNG](posters/chromosome-anchor/kinetochore.png) · [Sources, prompts and limitations](posters/chromosome-anchor/art-direction-and-prompts.md)
+
+## The Living Propeller — Bacterial Flagellum
+
+![The Living Propeller — Bacterial Flagellum](posters/living-propeller/flagellar_complex.png)
+
+[Download PNG](posters/living-propeller/flagellar_complex.png) · [Sources, prompts and limitations](posters/living-propeller/art-direction-and-prompts.md)
+
+## The Final Breach — Membrane Attack Complex
+
+![The Final Breach — Membrane Attack Complex](posters/final-breach/memb_attack_complex.png)
+
+[Download PNG](posters/final-breach/memb_attack_complex.png) · [Sources, prompts and limitations](posters/final-breach/art-direction-and-prompts.md)

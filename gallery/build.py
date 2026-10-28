@@ -14,6 +14,9 @@ BASE = os.environ.get('SITE_URL', 'https://posters.afraim.me').rstrip('/')
 REPO = 'https://github.com/Afraim10/protein-universe'
 ITEMS = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8'))
 DETAILS = {
+ 'chromosome-anchor': ('Molecular machines', 'Follow spindle microtubules to the human kinetochore, where molecular attachments organize chromosome segregation.'),
+ 'living-propeller': ('Molecular machines', 'Explore a proton-driven Salmonella flagellar motor, from its membrane-spanning architecture to the rotating helical filament.'),
+ 'final-breach': ('Molecular machines', 'Follow complement proteins as they assemble a membrane attack complex on a Gram-negative bacterial outer membrane.'),
  'egfr-signal-translator': ('Signaling', 'A signal outside the cell becomes a molecular conversation within. Explore the architecture of a full-length epidermal growth factor receptor.'),
  'molecular-recycler': ('Molecular machines', 'Recognition, unfolding, threading and cleavage: a journey through the human proteasome and the machinery of protein turnover.'),
  'photon-switch': ('Protein chemistry', 'Follow the meeting of light and matter inside rhodopsin, where retinal photoisomerization initiates a biological signal.'),
@@ -91,18 +94,18 @@ body = f'''<main id="main">
 <section class="hero wrap"><div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> THE FOLD / A MOLECULAR ART COLLECTION</p>
 <h1>Life is molecular.<br><em>Look closer.</em></h1><p class="intro">The folds, machines and quiet wonders of protein biology, reimagined as scientific art.</p>
 <div class="actions"><a class="button primary" href="#collection">Explore the collection <span>↓</span></a><a class="text-link" href="#create">Make something of your own ↗</a></div>
-<p class="hero-foot">11 posters <span>·</span> Free to download <span>·</span> Openly shared</p></div>
+<p class="hero-foot">{len(ITEMS)} posters <span>·</span> Free to download <span>·</span> Openly shared</p></div>
 <a class="hero-art" href="egfr-signal-translator/"><div class="frame-heading"><span>Featured / Human EGFR</span><span aria-hidden="true">+</span></div>{image(ITEMS[0], hero=True)}<div class="art-caption"><span>01 / EGFR</span><span>The Signal Translator ↗</span></div></a></section>
 <div class="principles wrap"><span>FROM MOLECULAR MACHINES TO WAYS OF SEEING</span><p>Made for curious minds. Shared for the next idea.</p></div>
 <section class="collection wrap" id="collection"><div class="section-heading"><div><p class="eyebrow"><span class="section-index">01</span> The collection</p><h2>A closer look at life.</h2></div><p>Explore a poster, read its scientific notes,<br>or take the full-resolution artwork with you.</p></div>
-<div class="filters" aria-label="Filter posters" hidden><button type="button" aria-pressed="true" data-filter="All">All posters <small>11</small></button>'''
+<div class="filters" aria-label="Filter posters" hidden><button type="button" aria-pressed="true" data-filter="All">All posters <small>{len(ITEMS)}</small></button>'''
 for category in ('Molecular machines','Signaling','Protein chemistry','Ways of seeing'):
     body += f'<button type="button" aria-pressed="false" data-filter="{category}">{category}</button>'
-body += f'''</div><p class="sr-only" id="result-count" aria-live="polite">11 posters</p><div class="poster-grid">{cards}</div></section>
+body += f'''</div><p class="sr-only" id="result-count" aria-live="polite">{len(ITEMS)} posters</p><div class="poster-grid">{cards}</div></section>
 <section class="create wrap" id="create"><div><p class="eyebrow"><span class="section-index">02</span> Behind the collection</p><h2>Curiosity is<br>the starting point.</h2><p>I’m Afraim, an undergraduate in Egypt fascinated by proteins. A hardcover copy of <em>Immune</em> by Philipp Dettmer, brought from the US by a friend, and the motion graphics in Kurzgesagt’s videos made me fall in love with their visual storytelling. I wanted to explore that sense of wonder through my own subject: molecular biology.</p><p>These posters grew from that curiosity, using Codex and image generation. Their visual language is inspired by Kurzgesagt; this independent project doesn’t replace the craft of the studio’s designers.</p></div>
 <div class="skill-panel"><span class="eyebrow">THE REUSABLE SKILL</span><h3>Your protein.<br>Your next poster.</h3><p>A shared workflow for choosing a molecular story, developing a composition and reviewing the result. Start with the guide, then adapt it to your own curiosity.</p><a class="button primary" href="downloads/protein-universe-skill.zip" download>Download the skill <span>↓</span></a><a class="text-link" href="{REPO}/blob/main/docs/GETTING_STARTED.md">Read the getting-started guide ↗</a><small>Requires access to compatible AI tools. The skill does not include a model or generation credits.</small></div></section>
 <section class="reuse wrap"><div><p class="eyebrow"><span class="section-index">03</span> Open to your next idea</p><h2>Download. Adapt. Give credit.</h2><p>Share and adapt the original material, including commercially, under CC BY 4.0 to the extent applicable rights are held. Credit Afraim Mario, link the license and indicate your changes.</p><a class="text-link" href="{REPO}/blob/main/LICENSE.md">License & attribution ↗</a></div><div><h3>Art with scientific context.</h3><p>These are AI-assisted schematics, not experimentally validated figures or exact molecular renders. Read each poster’s notes before educational reuse. Known issues are listed alongside the artwork.</p><a class="text-link" href="{REPO}/blob/main/docs/SCIENTIFIC_REVIEW.md">Scientific review notes ↗</a></div></section></main>'''
-write('index.html', shell('Molecular biology, illustrated', 'Explore and download 11 protein biology posters by Afraim Mario, plus a reusable AI-assisted scientific illustration skill.',body,script=True))
+write('index.html', shell('Molecular biology, illustrated', f'Explore and download {len(ITEMS)} protein biology posters by Afraim Mario, plus a reusable AI-assisted scientific illustration skill.',body,script=True))
 
 for index, item in enumerate(ITEMS):
     category, description = DETAILS[item['id']]

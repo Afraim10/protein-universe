@@ -41,4 +41,4 @@ assert (OUT/'style.css').stat().st_size<16000
 assert sum((OUT/p).stat().st_size for p in ['style.css','identity.css'])<24000
 assert sum(p.stat().st_size for p in (OUT/'fonts').glob('*.woff2'))<120000
 assert max(p.stat().st_size for p in (OUT/'media').glob('*-960.webp'))<350000
-print(f'PASS: {len(pages)} HTML pages; local links and fragments; image accessibility; 11 download checksums; JS/CSS/preview budgets.')
+print(f'PASS: {len(pages)} HTML pages; local links and fragments; image accessibility; {len(items)} download checksums; JS/CSS/preview budgets.')
