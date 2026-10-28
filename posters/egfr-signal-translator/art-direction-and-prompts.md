@@ -1,4 +1,9 @@
 # EGFR — The Signal Translator
+
+## Current published image — 2026-10-28
+
+The current download is the author-selected enhanced `egfr_receptor.png` (5960 × 4220 pixels), copied byte-for-byte. The public download path is retained for link stability. The generation prompts and earlier review history below describe source versions; enhancement does not establish new scientific validation.
+
 ## Deliverable
 Full-length mature human EGFR homodimer, landscape concept poster in the approved Protein Universe visual style. Final image: `egfr-full-length-landscape-v1.png`. Created with the built-in image generation tool. One initial generation and two completed correction passes; an interrupted attempt at the last pass produced no returned image. The completed image remains a raster concept, not a print-ready vector master. The initial generation requested a larger size, but the tool returned approximately 1490 × 1055 pixels; do not describe it as a 3072-pixel or 4K image.
 

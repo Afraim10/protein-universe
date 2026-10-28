@@ -1,5 +1,9 @@
 # The Viral Machine — Bacteriophage T4: Recognition to Delivery
 
+## Current published image — 2026-10-28
+
+The current download is the author-selected enhanced `viral_protein.png` (4096 × 6144 pixels), copied byte-for-byte. The public download path is retained for link stability. The generation prompts and earlier review history below describe source versions; enhancement does not establish new scientific validation.
+
 Vertical 2:3 concept poster created using the Protein Universe Posters skill and built-in image generation. Two targeted refinement passes simplified shading, repaired a tail-fiber connection, and replaced an oversized DNA helix with packaged genome coils. Final image: bacteriophage-t4-portrait-v1.png.
 
 ## Scientific framing

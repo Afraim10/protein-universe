@@ -9,3 +9,7 @@ Electrostatic potential is distinct from charge density and hydrophobicity. Prop
 For the launch set, read the notes next to EGFR, proteasome, rhodopsin and carbonic anhydrase. Earlier series references also retain their own limitations. Reference assets establish visual style, not scientific ground truth.
 
 Report an issue with the poster title, exact label or region, suggested correction and an authoritative supporting reference. Confirmed fixes should receive a new version; preserve prior provenance and record what changed.
+
+## Enhanced selection, 2026-10-28
+
+The selected proteasome image contains a duplicated Rpt4 label and no Rpt6 label in its motor inset. It precedes the historical typography cleanup recorded in its prompt notes. The enhanced file is preserved exactly as selected; individual motor labels should not be used as a subunit map.

@@ -1,5 +1,9 @@
 # One Protein, Many Views — Human Carbonic Anhydrase II
 
+## Current published image — 2026-10-28
+
+The current download is the author-selected enhanced `viewing_proteins.png` (4096 × 6144 pixels), copied byte-for-byte. The public download path is retained for link stability. The generation prompts and earlier review history below describe source versions; enhancement does not establish new scientific validation.
+
 ## Selected final and visual review
 
 `carbonic-anhydrase-many-views-portrait-v1.png` — 1024 × 1536 portrait PNG, generated with the built-in image tool. Reviewed the six views, separate property/element legends, displayed illustrative-map qualification, zinc coordination and overall reaction. Final refinement corrected imidazole nitrogen positions and removed the misleading reaction arrow from zinc. Three histidines plus solvent coordinate zinc; His64 remains separate. Chemical groups are simplified atom-and-stick illustrations without complete sidechains, hydrogens or validated bond-order depiction. Surface and atom views retain modest shading; they are conceptual artwork, not numerical structural analyses.

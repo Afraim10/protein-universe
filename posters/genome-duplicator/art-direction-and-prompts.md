@@ -1,5 +1,9 @@
 # The Genome Duplicator — Human Replisome: Copying Life
 
+## Current published image — 2026-10-28
+
+The current download is the author-selected enhanced `replisome.png` (5968 × 4216 pixels), copied byte-for-byte. The public download path is retained for link stability. The generation prompts and earlier review history below describe source versions; enhancement does not establish new scientific validation.
+
 Landscape approximately 1.414:1 concept poster created using the Protein Universe Posters skill and built-in image generation. One targeted refinement pass corrected parental DNA colors, the single-stranded span between CMG and Pol epsilon, lagging-strand clamp placement, ambiguous terminal labels, and duplicated garbled footer text, while flattening the shading.
 
 ## Art direction

@@ -1,5 +1,9 @@
 # The Protein Universe — Life in Motion
 
+## Current published image — 2026-10-28
+
+The current download is the author-selected enhanced `protein_fold.png` (5964 × 4220 pixels), copied byte-for-byte. The public download path is retained for link stability. The generation prompts and earlier review history below describe source versions; enhancement does not establish new scientific validation.
+
 Concept artwork generated with the built-in image_gen tool, then refined toward flatter vector-like illustration. This is a raster concept poster, not an experimentally derived molecular structure or a press-ready vector master.
 
 ## Art direction

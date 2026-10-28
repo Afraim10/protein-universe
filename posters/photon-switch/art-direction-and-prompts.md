@@ -1,5 +1,9 @@
 # The Photon Switch — Rhodopsin
 
+## Current published image — 2026-10-28
+
+The current download is the author-selected enhanced `photon_switch.png` (5968 × 4216 pixels), copied byte-for-byte. The public download path is retained for link stability. The generation prompts and earlier review history below describe source versions; enhancement does not establish new scientific validation.
+
 ## Selected final and review
 
 `rhodopsin-landscape-flat-v1.png`, generated with the built-in image tool. Final visual inspection confirmed opposite-side substituents for trans and same-side substituents for cis in the local C11=C12 inset. Misleading GDP/GTP conversion arrows were removed; nucleotide exchange is stated in words. Main receptor pocket is an artistic chromophore symbol, not a complete chemical formula. Membrane thickness, helix lengths, loop geometry and docking geometry remain exaggerated schematic illustrations, not atomic topology validation. Flattened ribbons and integrated section rules preserve the series style; slight residual color shading remains in the energy surfaces and G protein. Original generations retained.

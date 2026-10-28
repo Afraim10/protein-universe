@@ -6,7 +6,15 @@
     "notes": "posters/egfr-signal-translator/art-direction-and-prompts.md",
     "featured": true,
     "type": "AI-assisted schematic illustration",
-    "review": "Generation-time review; not independently validated"
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "egfr_receptor.png",
+      "width": 5960,
+      "height": 4220,
+      "bytes": 3111495,
+      "sha256": "e0a97d3f29d7fb6e7d6feb19a2eec83a2c93b6171fe9b452a481ef9545946638",
+      "updated": "2026-10-28"
+    }
   },
   {
     "id": "molecular-recycler",
@@ -15,7 +23,18 @@
     "notes": "posters/molecular-recycler/art-direction-and-prompts.md",
     "featured": true,
     "type": "AI-assisted schematic illustration",
-    "review": "Generation-time review; not independently validated"
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "proteosome.png",
+      "width": 4096,
+      "height": 6144,
+      "bytes": 2425179,
+      "sha256": "90dca1fb15b4b4172dcb7f9559550b821b34cb14426b6104338c8d12736f1e78",
+      "updated": "2026-10-28"
+    },
+    "knownIssues": [
+      "Motor inset duplicates Rpt4 and omits Rpt6; individual motor labels are not a reliable subunit map."
+    ]
   },
   {
     "id": "photon-switch",
@@ -24,7 +43,15 @@
     "notes": "posters/photon-switch/art-direction-and-prompts.md",
     "featured": true,
     "type": "AI-assisted schematic illustration",
-    "review": "Generation-time review; not independently validated"
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "photon_switch.png",
+      "width": 5968,
+      "height": 4216,
+      "bytes": 2610864,
+      "sha256": "0b5f8f75c8a8b829fc344b1faefe7888c1cfa05214e76d27aceea94647c9b2b8",
+      "updated": "2026-10-28"
+    }
   },
   {
     "id": "one-protein-many-views",
@@ -33,7 +60,15 @@
     "notes": "posters/one-protein-many-views/art-direction-and-prompts.md",
     "featured": true,
     "type": "AI-assisted schematic illustration",
-    "review": "Generation-time review; not independently validated"
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "viewing_proteins.png",
+      "width": 4096,
+      "height": 6144,
+      "bytes": 2576476,
+      "sha256": "19fdefc82ee1c37ecab17fc0e544c458608f51309d03f4ec30db9a323e69a541",
+      "updated": "2026-10-28"
+    }
   },
   {
     "id": "protein-universe",
@@ -42,7 +77,15 @@
     "notes": "posters/protein-universe/art-direction-and-prompts.md",
     "featured": false,
     "type": "AI-assisted schematic illustration",
-    "review": "Generation-time review; not independently validated"
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "protein_fold.png",
+      "width": 5964,
+      "height": 4220,
+      "bytes": 2989788,
+      "sha256": "253ae84fffda5900b03ce1f0858d0515fb7e4178c036296e63abbebd5d5792cf",
+      "updated": "2026-10-28"
+    }
   },
   {
     "id": "molecular-motor",
@@ -51,7 +94,15 @@
     "notes": "posters/molecular-motor/art-direction-and-prompts.md",
     "featured": false,
     "type": "AI-assisted schematic illustration",
-    "review": "Generation-time review; not independently validated"
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "atp_synthase.png",
+      "width": 5964,
+      "height": 4220,
+      "bytes": 2809130,
+      "sha256": "df1437bc08579358a9b7438cee9fb6c4a422defc0846318a125ca5a0424d7786",
+      "updated": "2026-10-28"
+    }
   },
   {
     "id": "molecular-walker",
@@ -60,7 +111,15 @@
     "notes": "posters/molecular-walker/art-direction-and-prompts.md",
     "featured": false,
     "type": "AI-assisted schematic illustration",
-    "review": "Generation-time review; not independently validated"
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "walking_protein.png",
+      "width": 5964,
+      "height": 4220,
+      "bytes": 2457403,
+      "sha256": "3834e0d617f975ae65d3435853f559cafe422ef7ba6d25a01b16650e4ed2c92d",
+      "updated": "2026-10-28"
+    }
   },
   {
     "id": "molecular-weave",
@@ -69,7 +128,15 @@
     "notes": "posters/molecular-weave/art-direction-and-prompts.md",
     "featured": false,
     "type": "AI-assisted schematic illustration",
-    "review": "Generation-time review; not independently validated"
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "collagen.png",
+      "width": 4096,
+      "height": 6144,
+      "bytes": 2312757,
+      "sha256": "082d8c8ab2b105551b3db9149d767845adbbba361e3735eaa434192a999c806e",
+      "updated": "2026-10-28"
+    }
   },
   {
     "id": "viral-machine",
@@ -78,7 +145,15 @@
     "notes": "posters/viral-machine/art-direction-and-prompts.md",
     "featured": false,
     "type": "AI-assisted schematic illustration",
-    "review": "Generation-time review; not independently validated"
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "viral_protein.png",
+      "width": 4096,
+      "height": 6144,
+      "bytes": 2740288,
+      "sha256": "4bfab4796bb4acace5bcc4d1caaff3434616a096354af19a7e891056d2483f65",
+      "updated": "2026-10-28"
+    }
   },
   {
     "id": "nuclear-gateway",
@@ -87,7 +162,15 @@
     "notes": "posters/nuclear-gateway/art-direction-and-prompts.md",
     "featured": false,
     "type": "AI-assisted schematic illustration",
-    "review": "Generation-time review; not independently validated"
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "nuclear_pore.png",
+      "width": 4096,
+      "height": 6144,
+      "bytes": 2896766,
+      "sha256": "90d50cf59d351e4dea02d5b0e21fc397ac16d37a670bbfd16ffb45f763c441d6",
+      "updated": "2026-10-28"
+    }
   },
   {
     "id": "genome-duplicator",
@@ -96,6 +179,14 @@
     "notes": "posters/genome-duplicator/art-direction-and-prompts.md",
     "featured": false,
     "type": "AI-assisted schematic illustration",
-    "review": "Generation-time review; not independently validated"
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "replisome.png",
+      "width": 5968,
+      "height": 4216,
+      "bytes": 2558436,
+      "sha256": "8ca6ba8b58cbb072c6bace2e6d374704f1e20bbaec00e3dc200be260ba0d33de",
+      "updated": "2026-10-28"
+    }
   }
 ]

@@ -1,5 +1,9 @@
 # The Molecular Motor — ATP Synthase: Energy in Motion
 
+## Current published image — 2026-10-28
+
+The current download is the author-selected enhanced `atp_synthase.png` (5964 × 4220 pixels), copied byte-for-byte. The public download path is retained for link stability. The generation prompts and earlier review history below describe source versions; enhancement does not establish new scientific validation.
+
 Created with the built-in image generation tool. Raster concept artwork in the established Protein Universe visual style, with schematic architecture and illustrative data; not a structure-derived model or print-production master.
 
 The central story is coupling of the proton electrochemical gradient to rotation and ATP synthesis. The catalytic head is on the matrix side of the inner mitochondrial membrane. The rotor and peripheral stator are visually distinguished. The open–loose–tight cycle is an idealized binding-change schematic. The footer distinguishes proteomics identification and quantification from molecular simulation and biological-context analysis.

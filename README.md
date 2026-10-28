@@ -30,7 +30,7 @@ The skill is at `.agents/skills/artifact-template-protein-universe-posters/`. It
 
 These are AI-assisted schematic illustrations, not coordinate-based molecular renders, experimentally validated figures, or calculated property maps. Generation-time checks caught and corrected some errors; they do not establish independent scientific validation. Consult each poster's notes before using it to teach. Corrections are welcome.
 
-PNG dimensions are the delivered generation resolution. These are not vector masters or guaranteed large-format print files.
+On 2026-10-28, all 11 downloads and matching skill references were replaced with the author-selected enhanced PNGs. Download paths remain stable. `catalog.json` records dimensions, byte sizes and SHA-256 checksums. These are raster enhancements, not vector masters or independently validated scientific figures. See each poster’s notes for version history and known issues.
 
 ## Reuse
 

@@ -1,5 +1,9 @@
 # The Molecular Walker — Kinesin-1: Life in Transit
 
+## Current published image — 2026-10-28
+
+The current download is the author-selected enhanced `walking_protein.png` (5964 × 4220 pixels), copied byte-for-byte. The public download path is retained for link stability. The generation prompts and earlier review history below describe source versions; enhancement does not establish new scientific validation.
+
 Created with the built-in image generation tool, with one refinement pass to flatten the visual style and alternate the motor-head positions in the inset. Raster concept artwork; schematic molecular architecture and illustrative data, not a structure-derived diagram or a press-ready vector master.
 
 Conventional kinesin-1 uses ATP turnover to support coordinated hand-over-hand movement toward microtubule plus ends. The schematic depicts two motor heads joined through neck linkers to a coiled-coil stalk, cargo attachment through an adaptor, and a hollow tubulin track. These transport properties are not universal to every kinesin-family member. The diagram does not resolve the complete nucleotide-dependent kinetic cycle. Footer panels distinguish proteomics, single-molecule tracking, simulation, and network analysis.

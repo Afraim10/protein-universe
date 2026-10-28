@@ -1,10 +1,16 @@
 # The Molecular Recycler
 
-## Selected final
+## Current published image — 2026-10-28
+
+The current download is the author-selected enhanced `proteosome.png` (4096 × 6144 pixels), copied byte-for-byte. The public download path is retained for link stability. The generation prompts and earlier review history below describe source versions; enhancement does not establish new scientific validation.
+
+**Known label issue in this selected version:** the six-subunit motor inset repeats Rpt4 and omits Rpt6. Small labels on the main motor are also imperfect. The historical label-removal correction below is not present in this enhanced selection. Do not use these individual labels as a subunit map.
+
+## Historical generated final
 
 `human-proteasome-portrait-flat-v1.png` — 1024 × 1536 portrait PNG, generated with the built-in image tool and visually inspected. Final review confirmed four core ring levels, separate ubiquitin recycling route, continuous incoming substrate and peptide products. Individual motor-subunit labels were removed in favor of the Rpt1–Rpt6 group label; exact subunit arrangement is not asserted by the illustrative lobe shapes. Rendering uses simplified bounded color regions with modest residual shading. Original generated image retained.
 
-## Final typography correction
+## Historical typography correction (not present in current selection)
 
 Make ONLY a tiny typography cleanup to this finished poster. Preserve every shape, flat color, title, caption, layout and molecular component. Remove every small white Rpt label printed directly ON the large turquoise motor subunits: erase the residual "Rpt..." texts on the two central turquoise lobes, filling with the identical local turquoise color. In the SIX-SUBUNIT MOTOR inset at left, REMOVE ALL SIX individual labels around the ring (Rpt5, Rpt1, Rpt2, Rpt3, and the two Rpt4 labels). Leave those locations as plain dark navy background. Keep the six turquoise lobes, coral chain, gold pore loops, dotted connection, inset title "SIX-SUBUNIT MOTOR" and caption "Pore loops grip the polypeptide." exactly unchanged. The existing external group annotation on the right "Rpt1–Rpt6 (AAA+ ATPase)" MUST remain. This intentional group-level labeling avoids erroneous individual subunit assignment in a schematic illustration. Do not replace the removed labels with other words or numbers. No other edits whatsoever.
 

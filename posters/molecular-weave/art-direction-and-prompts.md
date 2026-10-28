@@ -1,5 +1,9 @@
 # The Molecular Weave — Collagen: The Architecture of Strength
 
+## Current published image — 2026-10-28
+
+The current download is the author-selected enhanced `collagen.png` (4096 × 6144 pixels), copied byte-for-byte. The public download path is retained for link stability. The generation prompts and earlier review history below describe source versions; enhancement does not establish new scientific validation.
+
 Vertical 2:3 raster concept poster created using the built-in image generation tool, then refined to simplify the background and separate the enlarged molecular view from fibrillar assembly. Schematic illustrations, not atomic coordinates or a print-production vector master.
 
 The subject is fibrillar collagen. Three polypeptide chains form a triple helix; many collagen molecules pack in staggered arrays, with intermolecular cross-links contributing to fibril mechanics. Gly–X–Y is a schematic repeat; X and Y denote variable residues. Chain colors aid tracing and do not denote three distinct chain types. This is a structural hierarchy, not a complete biosynthetic pathway; it omits procollagen processing, detailed stereochemistry, and other maturation steps. The footer connects proteomic identification, modification mapping, and molecular mechanics simulations; spectra and molecular icons are illustrative.

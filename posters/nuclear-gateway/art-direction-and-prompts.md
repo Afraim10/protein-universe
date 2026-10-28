@@ -1,5 +1,9 @@
 # The Nuclear Gateway — Nuclear Pore Complex: Selective Passage
 
+## Current published image — 2026-10-28
+
+The current download is the author-selected enhanced `nuclear_pore.png` (4096 × 6144 pixels), copied byte-for-byte. The public download path is retained for link stability. The generation prompts and earlier review history below describe source versions; enhancement does not establish new scientific validation.
+
 A vertical 2:3 raster concept poster created with the Protein Universe Posters skill and the built-in image generation tool. First generation selected after visual inspection; no refinement pass performed.
 
 ## Art direction
