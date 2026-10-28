@@ -1,0 +1,101 @@
+[
+  {
+    "id": "egfr-signal-translator",
+    "title": "EGFR — The Signal Translator",
+    "image": "posters/egfr-signal-translator/egfr-full-length-landscape-flat-v1.png",
+    "notes": "posters/egfr-signal-translator/art-direction-and-prompts.md",
+    "featured": true,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated"
+  },
+  {
+    "id": "molecular-recycler",
+    "title": "The Molecular Recycler — Human Proteasome",
+    "image": "posters/molecular-recycler/human-proteasome-portrait-flat-v1.png",
+    "notes": "posters/molecular-recycler/art-direction-and-prompts.md",
+    "featured": true,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated"
+  },
+  {
+    "id": "photon-switch",
+    "title": "The Photon Switch — Rhodopsin",
+    "image": "posters/photon-switch/rhodopsin-landscape-flat-v1.png",
+    "notes": "posters/photon-switch/art-direction-and-prompts.md",
+    "featured": true,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated"
+  },
+  {
+    "id": "one-protein-many-views",
+    "title": "One Protein, Many Views — Carbonic Anhydrase II",
+    "image": "posters/one-protein-many-views/carbonic-anhydrase-many-views-portrait-v1.png",
+    "notes": "posters/one-protein-many-views/art-direction-and-prompts.md",
+    "featured": true,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated"
+  },
+  {
+    "id": "protein-universe",
+    "title": "The Protein Universe",
+    "image": "posters/protein-universe/protein-universe-concept-v1.png",
+    "notes": "posters/protein-universe/art-direction-and-prompts.md",
+    "featured": false,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated"
+  },
+  {
+    "id": "molecular-motor",
+    "title": "The Molecular Motor — ATP Synthase",
+    "image": "posters/molecular-motor/atp-synthase-poster-v1.png",
+    "notes": "posters/molecular-motor/art-direction-and-prompts.md",
+    "featured": false,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated"
+  },
+  {
+    "id": "molecular-walker",
+    "title": "The Molecular Walker — Kinesin",
+    "image": "posters/molecular-walker/kinesin-poster-v1.png",
+    "notes": "posters/molecular-walker/art-direction-and-prompts.md",
+    "featured": false,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated"
+  },
+  {
+    "id": "molecular-weave",
+    "title": "The Molecular Weave — Collagen",
+    "image": "posters/molecular-weave/collagen-portrait-v1.png",
+    "notes": "posters/molecular-weave/art-direction-and-prompts.md",
+    "featured": false,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated"
+  },
+  {
+    "id": "viral-machine",
+    "title": "Bacteriophage T4",
+    "image": "posters/viral-machine/bacteriophage-t4-portrait-v1.png",
+    "notes": "posters/viral-machine/art-direction-and-prompts.md",
+    "featured": false,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated"
+  },
+  {
+    "id": "nuclear-gateway",
+    "title": "The Nuclear Gateway",
+    "image": "posters/nuclear-gateway/nuclear-pore-complex-portrait-v1.png",
+    "notes": "posters/nuclear-gateway/art-direction-and-prompts.md",
+    "featured": false,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated"
+  },
+  {
+    "id": "genome-duplicator",
+    "title": "The Genome Duplicator — Human Replisome",
+    "image": "posters/genome-duplicator/human-replisome-landscape-v1.png",
+    "notes": "posters/genome-duplicator/art-direction-and-prompts.md",
+    "featured": false,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated"
+  }
+]
