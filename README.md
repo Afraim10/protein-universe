@@ -15,7 +15,7 @@ An undergraduate's exploration of molecular biology through scientific illustrat
 
 ## The story
 
-I bought a physical hardcover Kurzgesagt artbook, which a friend brought from the United States to Egypt. Its illustrations stayed with me. Buying a collection of the studio's posters was outside my budget, so I began exploring how to create posters about the proteins and molecular processes that fascinate me.
+I bought a physical hardcover copy of *Immune* by Philipp Dettmer, which a friend brought from the United States to Egypt. Its illustrations, together with the motion graphics in Kurzgesagt’s videos, stayed with me. Buying a collection of the studio's posters was outside my budget, so I began exploring how to create posters about the proteins and molecular processes that fascinate me.
 
 Working with Codex and image generation, I developed a reusable workflow for choosing a scientific story, designing a consistent composition, consulting structural references, and iteratively reviewing the images. This repository shares the workflow and its outputs.
 
