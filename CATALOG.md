@@ -85,3 +85,9 @@ AI-assisted schematic illustrations. Read the accompanying notes before educatio
 ![The Final Breach — Membrane Attack Complex](posters/final-breach/memb_attack_complex.png)
 
 [Download PNG](posters/final-breach/memb_attack_complex.png) · [Sources, prompts and limitations](posters/final-breach/art-direction-and-prompts.md)
+
+## The Molecular Shield — IgG Antibodies and Influenza A
+
+![The Molecular Shield — IgG Antibodies and Influenza A](posters/molecular-shield/igg-antibodies-influenza-a.png)
+
+[Download PNG](posters/molecular-shield/igg-antibodies-influenza-a.png) · [Sources, prompts and limitations](posters/molecular-shield/art-direction-and-prompts.md)
