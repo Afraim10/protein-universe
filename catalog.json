@@ -239,5 +239,26 @@
       "sha256": "f302affdd035aa201beee2acc8994cf199f8527e9da7533a6a929fdbb280c10b",
       "updated": "2026-10-29"
     }
+  },
+  {
+    "id": "molecular-shield",
+    "title": "The Molecular Shield — IgG Antibodies and Influenza A",
+    "image": "posters/molecular-shield/igg-antibodies-influenza-a.png",
+    "notes": "posters/molecular-shield/art-direction-and-prompts.md",
+    "featured": false,
+    "type": "AI-assisted schematic illustration",
+    "review": "Generation-time review; not independently validated",
+    "file": {
+      "sourceFilename": "skill_refined_antibodies_bound_virus.png",
+      "width": 4096,
+      "height": 6144,
+      "bytes": 19468765,
+      "sha256": "6a8ed49c88924ee3073189f5d7ebd36f6501dc88bcb3bfff4c8c49085e2baddb",
+      "updated": "2026-10-30"
+    },
+    "knownIssues": [
+      "Small antibody contacts are schematic and should not be used as a validated binding-geometry diagram.",
+      "Full IgG, virion and tissue views are illustrative composites rather than coordinate-derived structures."
+    ]
   }
 ]

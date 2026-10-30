@@ -27,7 +27,8 @@ DETAILS = {
  'molecular-weave': ('Protein chemistry', 'From intertwined chains to structural fibers, explore the molecular architecture of collagen.'),
  'viral-machine': ('Molecular machines', 'A portrait of bacteriophage T4 and its intricate molecular architecture for interacting with a bacterial host.'),
  'nuclear-gateway': ('Molecular machines', 'Explore the nuclear pore complex, the enormous protein assembly organizing selective transport between nucleus and cytoplasm.'),
- 'genome-duplicator': ('Molecular machines', 'Follow the coordinated molecular machinery at a human DNA replication fork.')
+ 'genome-duplicator': ('Molecular machines', 'Follow the coordinated molecular machinery at a human DNA replication fork.'),
+ 'molecular-shield': ('Protein chemistry', 'See how IgG antibodies recognize influenza A hemagglutinin and block receptor access in a schematic molecular defense story.')
 }
 
 def write(path, content):
