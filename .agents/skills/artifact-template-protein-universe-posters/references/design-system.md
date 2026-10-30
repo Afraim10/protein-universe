@@ -1,75 +1,74 @@
-# Approved visual system
+# Protein Universe visual system
 
-## Canonical examples
+## Primary reference and the reason it works
 
-All paths below resolve from the skill root. View the images; prose alone cannot capture the visual standard.
+Inspect `assets/reference.png` before designing. **The Protein Universe — Life in Motion** is the style anchor, even when a later poster is closer in subject or orientation. The user's October 2026 review explicitly prefers its color hierarchy and overall aesthetic.
 
-| Image | What to inherit | What is specific to that image |
-| --- | --- | --- |
-| `assets/reference.png` | Master palette, flat molecular forms, title hierarchy, layered scientific storytelling, footer | The folding landscape, ribbon protein and proteomics questions |
-| `assets/atp-synthase.png` | Single machine as hero, selective gold for energy flow, subordinate state inset | Membrane polarity, rotary architecture, open/loose/tight cycle |
-| `assets/kinesin.png` | A sweeping directional track, distinct subunit colors, cargo-scale contrast | Plus-end transport, paired motor heads, microtubule lattice |
-| `assets/collagen-portrait.png` | Portrait rhythm, long structural motif, separated magnification scales, three-column footer | Triple helix, sequence repeat and staggered fibrillar assembly |
+Transfer these visible strengths:
 
-The user's initial references were Kurzgesagt's Quasars, Universe, Evolution Map, periodic-table posters and Space Artbook. Their influence is expressed through the approved images above: a dramatic hero from the Quasar poster, discoverable details from the Evolution Map, and consistent visual vocabulary from the tables. Retain the resulting series style rather than reinterpreting the studio from scratch. Do not add the studio's logo or imply official authorship.
+- A broad cyan ribbon silhouette is counterbalanced by coral helices and violet turns. Warm–cool relationships articulate the structure rather than uniformly lighting every component.
+- The magenta/coral folding landscape flows toward cyan basins, making a second large color mass and a directional path. Its contours connect scenes visually without requiring a literal physical connection.
+- Indigo background forms, faint ensemble outlines, secondary molecules, and bright foreground ribbons occupy different levels of contrast and detail. Empty dark channels separate them.
+- Small amber sites draw attention locally. Large white lettering anchors the composition; quieter captions reward close inspection.
+- Multiple representations and scientific vignettes share a visual language. The footer adds information without fragmenting the main artwork into cards.
 
-## Color and rendering
+This is **rich graphic illustration**, not an instruction to give every object only two colors. The actual reference includes bounded shadows, restrained gradients, and selected bright edge accents. Preserve its result over literal historical prompts. Do not mistake its schematic colors for a validated chain/domain map.
 
-Use these approximate working colors as guides, not measured swatches or a rigid per-pixel palette:
+## Scene-level color hierarchy
 
-| Role | Approximate color |
+Design color relationships before assigning individual swatches:
+
+1. **Environment:** midnight navy, indigo, or deep aubergine forms a substantial continuous field. Low-contrast biological shapes establish context. Dark space separates information, not merely borders a packed diagram.
+2. **Main subject:** choose two or three dominant, distinguishable families suited to chain identities and the action. Cyan/coral/violet is a starting point, not a mandatory color for every motor, substrate, or membrane.
+3. **Supporting biology:** related but quieter hues. Reduce contrast, internal marks, and edge emphasis with narrative distance. Do not make every background molecule a bright sticker.
+4. **Focus:** concentrate luminous accents at the important pocket, interface, chemical event, or moving element. Gold is useful, not a universal ATP/ligand code. If gold identifies a whole protein, differentiate its focal event another way.
+5. **Annotations:** white title/essential labels, restrained pale colors for secondary text and leaders. Arrows and headings should not compete with the event.
+
+Working swatches are approximate design choices, not measured samples or compulsory assignments. Select a subset:
+
+| Family | Shadow → body → selected highlight |
 | --- | --- |
-| Main dark field | Midnight navy `#031331` |
-| Background depth | Indigo `#111E5B` |
-| Primary molecular color | Cyan `#24CDEB` |
-| Cool secondary | Turquoise `#18A9C5` |
-| Warm partner | Coral `#FF758B` |
-| Warm shadow/accent | Magenta `#DB3B9E` |
-| Structural complement | Violet `#8858E8` |
-| Light complement | Lavender `#B994F5` |
-| Sparse functional highlight | Gold `#FFD34C` |
-| Main text | Soft white `#F5F7FF` |
+| Environment | `#031331` → `#20203E` → `#303064` |
+| Cool molecular | `#174A97` → `#18A9C5` / `#24CDEB` → `#8CECF2` |
+| Warm molecular | `#85256B` → `#DB3B9E` / `#FF758B` → `#FFB0AD` |
+| Violet | `#44266F` → `#8858E8` → `#B994F5` |
+| Orange/gold | `#C63E27` → `#FF8A19` / `#FFD34C` → `#FFF09B` |
+| Green | `#006961` → `#00A775` / `#7FBD29` → `#C7DD42` |
+| Type | soft white `#F5F7FF`; muted lavender for subordinate notes |
 
-- Navy is a substantial visual field, not a narrow border. Lower the contrast of distant objects.
-- Cyan, coral and violet carry the main molecular masses. Assign colors consistently to chains or subunits across states.
-- Gold is scarce and meaningful: ligand, ATP, proton, chemical tag, cross-link, or a process arrow. It is not random sparkle.
-- Construct forms from rounded, interlocking silhouettes, smooth ribbon bands, scalloped color regions and repeated geometric units. Use about 3–5 bounded color regions per component, often just a base color and a darker side plane.
-- Suggest depth through overlap, scale, occlusion and flat shadow regions. Small gradients are acceptable where the approved examples use them, but avoid shiny plastic, glossy highlights, ambient-occlusion rendering and atomistic foam.
-- Do not drift toward photoreal molecular renders, ornate fantasy paintings, neon haze, mesh textures, fractal detail, metallic machinery or generic cosmic scenery. No faces, human limbs, gears, wheels or mascots unless explicitly requested.
-- Molecular curves provide motion. Ghost contours can show alternative conformations, but are subordinate to the primary silhouette.
+The new references broaden the greens and orange/yellow families. Use them to improve biological grouping, not to add every hue everywhere. A chain can have shadow/body/highlight variations within its identity family; unrelated rainbow bands require an explicit residue/domain/property meaning. Property maps use their own legends and override decorative palette preferences.
 
-## Composition and type
+## Rendering: depth without plastic
 
-The image should work at three distances: striking silhouette across a room, recognizable mechanism at arm's length, and informative labels up close.
+**Default — layered graphic depth.** Smooth contours, interlocking organic regions, clean ribbons, and legible silhouette overlap. Start with base, chromatic shadow, and selective highlight; add tones where they explain curvature or structure. No universal color count per protein: a large assembly needs multiple identity families; a background molecule may need one.
 
-- One dominant molecular hero, normally occupying roughly 40–60% of the artwork region. Secondary insets support its story rather than compete with it.
-- Reserve roughly 80–84% of the canvas for artwork and title, and 16–20% for the integrated footer. These are proportional guides, not mandatory grids.
-- Titles use bold, uppercase white geometric sans-serif forms, normally upper left with short line breaks. The type is large and highly legible. Do not invent a specific font identification from the raster reference.
-- Titles in the series include **THE PROTEIN UNIVERSE**, **THE MOLECULAR MOTOR**, **THE MOLECULAR WALKER**, and **THE MOLECULAR WEAVE**. Choose an equally concise new title appropriate to the subject; do not mechanically reuse 'molecular' if awkward. A smaller subtitle names the protein and central idea.
-- Use short white or pale-cyan labels, fine leader lines and restrained arrows. Exact wording must be in the generation prompt. Keep paragraphs minimal: one or two brief explanatory sentences at most in the artwork.
-- Avoid dashboard cards, elaborate panel borders and equal-weight grids. One small cycle or magnification inset can be enclosed when it improves comprehension.
-- Background motifs should be sparse, larger, quieter silhouettes of relevant biology. Empty navy areas are part of the design.
+- Shift hue as well as value: blue/indigo beneath cyan, wine/violet beneath coral, red-orange beneath yellow. Preserve chain recognition across lighting.
+- Separate front/back ribbon faces with bounded tones and consistent overlaps. Keep helices, strands, and loops readable; do not turn all structures into interchangeable lobes.
+- Depth comes primarily from overlap, scale, cutaways, and decreasing background contrast. Limited broad gradients inside shapes are acceptable; blurred luminous atmosphere over the whole scene is not.
+- Small graphic highlight patches can clarify rounded units. Avoid identical white shine on every atom/lipid, deep ambient-occlusion crevices, metal, glass, and polished plastic.
+- Circles can serve an intentional space-filling view or distant subunit aggregate. They do not replace a source-specific fold, pocket, or surface with arbitrary bead foam.
+- Dots can show diffusion, concentration, or a molecular stream. Their density and placement should explain the process. Avoid high-contrast confetti or implying decorative dots are atoms at a common scale.
 
-## Orientation-specific behavior
+**Optional — simpler lighting.** Use fewer internal tones and mostly hard-edged regions. Keep anatomy, identities, depth hierarchy, insets, and annotations. Neither this mode nor a cartoony appearance authorizes generic geometry where a source-specific fold is requested. Produce both modes only when requested.
 
-**Landscape, approximately 1.414:1:** title at upper left; broad hero or sweeping track across center; one or two small inset scenes in available negative space; three or four compact footer groups. Use the ATP synthase and kinesin examples for geometry suited to machines and transport.
+## Composition and information density
 
-**Portrait, 2:3:** title high on the page; a long vertical or gently diagonal central motif; side labels spaced along the descent; lower assembly or scale transition; usually three footer groups. Use a long protein, filament, transmembrane assembly, or vertically unfolding process when naturally appropriate. Preserve readable type; do not shrink a four-column landscape footer indiscriminately.
+Design for three distances: striking across the room, intelligible mechanism at arm's length, molecular detail up close. One hero or coherent action dominates. Approximately 40–60% of the art region is a useful starting scale for a hero, not a quota.
 
-## Scientific footer
+Choose a broad diagonal, S-curve, chamber, track, ring, or membrane boundary arising from the biology. Supporting scenes nest in negative space. A continuous environment can carry multiple stages; distinguish times and magnifications so they do not become impossible connections. Quiet cropped peripheral forms create immersion without covering crucial protein parts.
 
-The footer connects the biological world to ways of investigating it. It has a thin cyan top rule, a short uppercase heading and compact icons above/beside short captions, without boxed cards. Select only methods relevant to the subject.
+Keep detailed infographics. Organize by importance instead of deleting information to achieve flatness: mechanism on the hero, chain/domain key nearby, local chemistry enlarged, complementary methods in the footer. Use numbered stages and magnifiers when useful; avoid boxed dashboards, equal-weight panels, and a caption at every bead.
 
-Examples: identify proteins or peptides from spectra; quantify abundance; map modifications; measure trajectories; simulate conformational changes or mechanics; connect interactions or pathways. These are complementary approaches, not an obligatory single pipeline. Keep molecular simulation distinct from proteomics, and single-molecule tracking distinct from mass spectrometry.
+Typography: concise bold white geometric sans-serif title with a smaller subject-specific subtitle. Usually upper-left in landscape or near the top in portrait, adapting to the silhouette. Do not consume the protein's explanatory space with the title. Exact short labels and fine leaders must have unambiguous targets on quiet fields. Decorative marks must not enter letters.
 
-Use schematic spectra or plots with meaningful axes and no fabricated experimental values. Mark illustrative data when appropriate. A small 'Schematic illustration • not to scale' caption is characteristic of the series. Do not imply that a simple bottom-up spectrum completely identifies every proteoform or resolves protein dynamics.
+## Orientation and footer
 
-## Fidelity hierarchy
+- **Landscape (~1.414:1):** broad action/environment, supporting scenes in open corners, usually three or four compact footer groups.
+- **Portrait (2:3):** vertical/diagonal reading path, staggered information, usually three footer groups. Do not squeeze landscape or make every portrait a stacked cylindrical motor.
+- **Footer:** integrated dark strip, restrained thin rule, unboxed method/insight vignettes. Roughly 16–20% of height is a starting point; prioritize legibility and requested information. Explain structure, chemistry, measurement, or dynamics when generic proteomics icons would add little.
 
-1. Explicit current user constraints.
-2. Scientific correctness of the new subject.
-3. The approved final images' visual language.
-4. This document's approximate tokens and layout guides.
-5. Historical prompts, which record intent but can contain ambiguities or instructions not perfectly achieved.
+Choose relevant methods. Distinguish measurements from simulations and identity from abundance, proteoforms, and interactions. Schematic plots need meaningful axes and an illustrative-data label when liable to be mistaken for results. No invented values. Keep detailed sources/limitations in accompanying notes and a concise schematic/scale caption on the poster.
 
-Preserve overall appearance while correcting misleading details. The references are concept artwork, not atomic models. Do not reproduce errors just to maintain similarity.
+## Reference priority
+
+Current user instructions and scientific truth govern the result. For aesthetics: primary Protein Universe image first, relevant new reference-study examples second, older companion posters for specific layout ideas. Swatches and proportions are flexible. Historical prompt wording and simplified artwork geometry never overrule the scientific brief.

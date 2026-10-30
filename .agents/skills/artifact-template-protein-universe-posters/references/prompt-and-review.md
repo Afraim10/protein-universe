@@ -1,73 +1,106 @@
-# Prompt construction and targeted review
+# Production and targeted review
 
-## Choose a story before choosing decorations
+## Make a concrete brief
 
-For an open-ended request, pick a protein whose geometry or mechanism has a clear visual organizing principle: an enclosing chamber, a branching network, a rotary or translating motor, a molecular gate, a scaffold, a folding/assembly hierarchy, or a switch. Explain the choice in one or two sentences and proceed. Previously completed subjects are protein ensembles, ATP synthase, kinesin-1 and collagen; these are references, not an exhaustive topic list.
+Choose one story and a composition arising from its biology. Read the primary image and relevant entries in the reference study, then use the accuracy guide to establish:
 
-Verify claims before committing them to the image. RCSB PDB-101 and primary structure/mechanism papers are useful; EMBL-EBI supports proteomics methods. Avoid quantitative claims unless necessary and sourced. Choose an actual protein family/member so a mechanism belonging to one member is not universalized across the family.
+- **Evidence:** species, assembly/state, structural sources and their limits, critical fold/interface/mechanism details.
+- **Color:** component/chain identity families, shadow/highlight variations, background family, focal event, separate legends for property maps.
+- **Space/time:** dominant subject and reading path, subordinate scenes, state ordering, magnification boundaries, camera changes.
+- **Text:** exact title, labels, brief explanatory captions, relevant footer and schematic/data qualifiers.
 
-## Prompt skeleton
+These are concise working notes, not a mandatory extra user-facing approval step. Use already supplied information and make routine art-direction decisions autonomously.
 
-Fill this with a concrete design rather than forwarding unresolved alternatives to image generation:
+## Prompt scaffold
+
+Resolve choices before generation. Adapt the scaffold to the subject rather than forwarding every option:
 
 ```text
-Use case: scientific-educational.
-Create one [landscape approximately 1.414:1 / portrait 2:3] full-bleed science art poster.
+Create one [orientation and aspect] full-bleed scientific art poster.
 Title: "[EXACT TITLE]". Subtitle: "[EXACT SUBTITLE]".
 
-STYLE: Match the approved Protein Universe poster series: sophisticated Kurzgesagt-inspired flat vector illustration, midnight navy and indigo ground, saturated cyan/turquoise against coral/magenta/violet, sparse gold reserved for [FUNCTION]. Smooth precise contours, interlocking rounded silhouettes, broad clean ribbon bands, 3–5 bounded solid color regions per object, a simple darker side plane. Depth through overlap and scale. Bold white geometric sans-serif title. Dark breathing room. Not glossy 3D, atomistic foam, metal machinery, neon haze or ornate fantasy art. No studio logo, watermark, frame or photographed mockup.
+STYLE ANCHOR: The approved The Protein Universe — Life in Motion poster.
+Rich graphic scientific illustration: dark navy/indigo/aubergine ground,
+clean organic silhouettes, layered bounded colors, hue-shifted shadows,
+selective bright accents and restrained local gradients. Depth from overlap,
+scale and contrast hierarchy. Detailed protein geometry, crisp editorial
+finish; not shiny plastic, photoreal rendering, atomistic foam, neon haze,
+metal machinery, generic cosmic decoration or a boxed dashboard.
+No studio logo, watermark, frame or room mockup.
 
-COMPOSITION: [One specifically located dominant hero, its silhouette and relative size.] [Orientation-specific reading path.] [One or two subordinate insets, only where useful.] Background objects are sparse quiet silhouettes of relevant biology.
+COLOR SCRIPT: [Hero chain/subunit → family mapping]. [Partner and environment
+families]. [Shadow/highlight relationships]. Reserve the strongest local
+contrast for [event/site]. Background [specific biological forms] stay
+[quiet colors/contrast]. Maintain identities through every state and inset.
+[Property/atom-map legends and their separate meaning, if needed.]
 
-MOLECULAR ARCHITECTURE: [Subunit/chain count if critical; topology; compartment and membrane orientation; identity-preserving colors; continuous connections; state/direction and transport mechanism.] Distinguish [MAIN POTENTIAL CONFUSION]. Schematic structure, not a claimed experimental model.
+COMPOSITION: [Specific hero position, scale, silhouette and camera].
+[One strong reading path arising from the mechanism]. [Secondary scenes
+and magnifiers in particular negative spaces]. [Quiet dark channels].
+[Clearly separated times/scales]. Rich discoveries up close without making
+every molecule, particle or label equally prominent.
 
-STORY: [One clear scientifically grounded action or structural hierarchy.] Show [explicit state ordering / causal arrows / separate scales]. [Exact label placement and leader destination.]
+MOLECULAR ARCHITECTURE: [Organism/member, state and source-derived shape].
+[Subunit count/order, topology, continuous connections, domains, actual
+fold features, interfaces, ligands and correct compartment orientation].
+[Exact details that must survive simplification]. [Known schematic regions].
+For ribbons preserve helix/strand/loop geometry; for surfaces preserve the
+envelope and pocket; for atoms preserve chemistry. Do not replace a named
+protein with an unrelated decorative fold. [Identity-preserving state changes].
 
-TEXT: [List exact title, labels, short captions and allowed footnotes. No additional invented paragraphs, sequences or measurements.]
+STORY: [Grounded process and causal order]. [Substrate/ion/rotation paths].
+[What is enlarged, abstract or illustrative]. Keep physically different
+objects and time points distinguishable even where contours echo.
 
-FOOTER: A narrow dark band with thin cyan rule, heading "[HEADING]", [three/four] unboxed icon/caption groups. [Specify method and caption for each, distinguish measurements from simulations.] Schematic plots with meaningful axes and no fabricated empirical values. Small caption "Schematic illustration • not to scale" and illustrative-data note where appropriate.
+TEXT: [Exact permitted wording and leader targets; no invented paragraphs,
+residue numbers, sequences or measurements]. Bold white geometric title,
+quieter captions on uncluttered fields. Preserve the requested infographic
+detail by hierarchy and local magnification, not by removing it.
 
-FINISH: Collectible scientific poster, dramatic at thumbnail size and rewarding up close. Maintain the approved series' visual identity and readable hierarchy.
+FOOTER: [Heading, relevant unboxed groups with exact labels and short captions].
+Subordinate dark strip, restrained thin rule, sufficient text size.
+[Meaningful axes; illustrative-data qualifier when applicable].
+[Schematic / scale / composite note appropriate to the actual output].
+
+FINISH: One readable story at thumbnail size; scientific and visual detail
+at full size. Maintain the primary reference's warm–cool balance, broad
+color masses, dark breathing room, and layered graphic depth.
 ```
 
-For new generation, obey the image tool's current input schema, including any restriction on attaching reference paths. Viewing an image is not the same as passing it into generation. For an edit, inspect the target first and use supported reference-image inputs. Never silently substitute HTML/SVG drawing for requested image-generation artwork.
+For an explicitly requested simple-lighting variant, change the rendering clause to fewer hard-edged internal tones. Preserve composition, structural detail, colors, annotation density, and molecular identity. Do not use a blanket “remove almost all detail/3D” instruction.
 
-## Inspect the actual result
+Use the tool's actual schema for new generation versus editing and reference inputs. Inspect an edit target first. Viewing a reference is not the same as attaching it to generation. Do not claim an attachment was used if it was only visually inspected. Do not silently substitute code-drawn artwork for requested image generation.
 
-Review the image, not just the prompt. Check both a whole-image view and the small scientific insets when necessary.
+## Inspect the actual output
 
-**Series fidelity:** correct aspect; dark ground; dominant hero; consistent palette; flat bounded shading; sparse purposeful gold; meaningful silhouette; legible title/labels; integrated footer. The most common observed drift was excessive plastic/3D shading and noisy molecular detail. Flatten it while preserving composition rather than rebuilding an otherwise good poster.
+Use a whole-image view and necessary enlarged details. Compare with the primary reference, not only with the latest generated poster.
 
-**Mechanism:** arrows point to the intended destination; state labels agree with actual order; subunit identities and colors persist through frames; membrane sides and transport direction agree; moving and stationary components are distinct; numbers of chains/heads are credible; protein connections do not accidentally branch; differing scale views remain separated.
+1. **Hierarchy:** Does the eye find the main event before the labels? Are broad warm/cool masses separated by quiet dark space? Are background forms subordinate? Is the image rich without uniform sparkle, equal contrast, or cyan dominating all roles?
+2. **Rendering:** Are hue-shifted shadow regions and selective highlights giving shape? Are folds readable? Has the image drifted into glossy plastic or, conversely, featureless two-tone stickers? Correct the specific drift.
+3. **Structure:** Compare source-informed architecture, subunit count, chain continuity/colors, domains, fold and pocket locations. Check the representation-specific rules; count visually instead of trusting the prompt.
+4. **Mechanism:** Check labels and arrowheads against state order, compartments, moving/stationary parts and actual transport routes. Distinguish multiple time points and magnifications.
+5. **Information:** Check all text, leader endpoints, legends, repeated labels, equations, plot axes, and source/scale qualifiers. Data-looking maps need an honest computed/illustrative status. An identifier alone does not validate the drawing.
 
-**Evidence:** captions avoid unsupported numbers; charts and sequences do not masquerade as measured data; a network edge is not an unexplained reaction arrow; schematic status is clear. Generic protein surfaces need not be atomically exact, but the illustrated mechanism should not contradict the explanation.
+Examples carried forward from the series, only when relevant:
 
-Examples of checks learned from this series (apply only when relevant):
+- Folding landscapes are projections with multiple accessible states, not cellular holes or a compulsory single route. Functional disorder matters. A conformational change is not automatically a distinct proteoform.
+- ATP synthase: ion paths at the rotor/stator interface, not through the central shaft. Check organism-specific orientation, moving/stationary parts and catalytic state order. Matrix-facing catalysis refers to mitochondrial context; do not generalize it to bacteria.
+- Conventional kinesin-1: two heads retain identities while exchanging leading/trailing roles (AB → BA → AB). Check direction arrows. Do not generalize its plus-end motion to every kinesin. Microtubules are tubulin assemblies, not DNA.
+- Collagen: distinguish three-chain helix from DNA, a Gly–X–Y repeat from a complete sequence, chain instances from types, and molecular magnification from fibril-scale assembly.
+- Repeated-subunit diagrams: count labels as well as units; a repeated Rpt label can leave another subunit missing even when the ring has six shapes. Treat retained examples as fallible references.
 
-- Folding landscapes represent free-energy projections and multiple accessible states, not a physical hole in a cell or a mandatory single route. Functional disorder has a legitimate place. A conformational change is not automatically a new proteoform.
-- ATP synthase: proton paths belong at the membrane rotor/stator interface, not through the central shaft. Matrix-facing catalysis, stationary support and rotation should agree. A simple catalytic inset must depict open → loose → tight → open in the intended synthesis direction. Do not draw a direct TCA-cycle-to-motor energy conversion.
-- Kinesin-1: two heads preserve identity while changing leading/trailing roles; a three-frame schematic can be AB → BA → AB. Check motion arrows as well as labels. Plus-end transport applies to conventional kinesin-1, not every kinesin. Microtubules are hollow tubulin assemblies, not DNA.
-- Collagen: three chains, not DNA's two; Gly–X–Y is a repeat, not a full sequence; strand colors do not imply three different chain types. An enlarged molecular segment should not physically become the larger-scale fibril in the drawing. Fibrillar assembly is not the entire biosynthetic pathway.
-
-## Refinement prompt pattern
+## Refine without losing what works
 
 ```text
-Preserve the successful composition, title, exact wording, orientation, palette and [specific retained features]. Correct only:
-1. [Observable scientific/text error with explicit desired geometry or state order.]
-2. [Observable visual drift.] Replace glossy modeling with clean bounded flat colors; remove excess detail and quiet the background. Keep the same architecture and identity colors.
-3. [Other necessary targeted correction, if present.]
-Do not add unrelated objects or paragraphs. Keep full-bleed artwork and the established series style.
+Preserve [successful geometry, composition, identity mapping, text and palette].
+Correct these observed issues only:
+1. [Scientific/text error: explicit intended structure, label or direction].
+2. [Visual hierarchy issue: named component too bright/dull, missing warm
+countermass, background competing, or illegible overlap].
+3. [Rendering issue if present: replace specular gloss with bounded chromatic
+shadows OR restore selective highlight/hue layers to overly flat forms].
+Keep topology, interfaces, chain identities, information content and scale
+separations intact. No unrelated objects, paragraphs or generic replacement fold.
 ```
 
-Do not correct unobserved failures automatically. If no material issue is visible, deliver the first generation. If correction introduces another error, inspect and address that specific error within the bounded review loop; never claim a diagram is validated merely because it looks polished.
-
-## Retained prompt records
-
-The exact original generation and refinement prompts are retained for provenance and adaptation:
-
-- `approved-prompts/protein-universe.md`
-- `approved-prompts/atp-synthase.md`
-- `approved-prompts/kinesin.md`
-- `approved-prompts/collagen-portrait.md`
-
-Each path is relative to this reference directory. Read only the relevant record. These prompts are historical evidence, not a requirement to repeat every original instruction or subject.
+Do not apply corrections to unobserved problems. If the first image succeeds, deliver it. Limit correction attempts as specified in SKILL.md and state unresolved errors honestly. Save exact prompts, source links/identifiers, reference roles, actual checks, and limitations beside the selected output. Historical approved prompts remain provenance, not higher-priority production instructions.

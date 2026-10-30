@@ -79,7 +79,10 @@ for item in ITEMS:
 skill = ROOT/'.agents/skills/artifact-template-protein-universe-posters'
 with zipfile.ZipFile(OUT/'downloads/protein-universe-skill.zip', 'w', zipfile.ZIP_DEFLATED) as z:
     for p in sorted(skill.rglob('*')):
-        if p.is_file(): z.write(p, 'artifact-template-protein-universe-posters/'+p.relative_to(skill).as_posix())
+        relative = p.relative_to(skill)
+        # Personal reference libraries are not part of the public skill download.
+        if p.is_file() and 'private-style-references' not in relative.parts:
+            z.write(p, 'artifact-template-protein-universe-posters/'+relative.as_posix())
     z.write(ROOT/'LICENSE.md', 'LICENSE.md')
     z.write(ROOT/'docs/GETTING_STARTED.md', 'GETTING_STARTED.md')
 

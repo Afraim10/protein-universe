@@ -4,6 +4,7 @@ from html.parser import HTMLParser
 from urllib.parse import unquote, urlparse
 import hashlib
 import json
+import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT/'dist'
@@ -41,4 +42,6 @@ assert (OUT/'style.css').stat().st_size<16000
 assert sum((OUT/p).stat().st_size for p in ['style.css','identity.css'])<24000
 assert sum(p.stat().st_size for p in (OUT/'fonts').glob('*.woff2'))<120000
 assert max(p.stat().st_size for p in (OUT/'media').glob('*-960.webp'))<350000
+with zipfile.ZipFile(OUT/'downloads/protein-universe-skill.zip') as archive:
+    assert not any('private-style-references' in Path(name).parts for name in archive.namelist()), 'Private references in public skill download'
 print(f'PASS: {len(pages)} HTML pages; local links and fragments; image accessibility; {len(items)} download checksums; JS/CSS/preview budgets.')

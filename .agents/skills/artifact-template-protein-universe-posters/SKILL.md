@@ -5,34 +5,27 @@ description: Create or refine protein biology and computational proteomics poste
 
 # Protein Universe Posters
 
-Produce original science posters that look like members of the user's approved series. Preserve its specific visual language, rather than approximating a generic colorful science infographic. The user values dramatic molecular beauty, technical precision, and a finished image, not merely a proposed concept.
+Create original scientific posters with the visual hierarchy of **The Protein Universe — Life in Motion**, the user's strongest style reference. Combine rich graphic color and layered storytelling with protein-specific structural detail. Simplify rendering, not molecular topology. A finished image is the usual deliverable.
 
-## Load the visual reference
+## Load the right references
 
-1. Read `artifact-template.json`, resolve its retained image paths relative to this skill, and read [the design specification](references/design-system.md).
-2. Inspect `assets/reference.png` with the image viewer before composing a new poster. This is the approved final **Protein Universe** image and the primary style authority. For a portrait, also inspect `assets/collagen-portrait.png`; for machinery or motion, inspect the closest of `assets/atp-synthase.png` and `assets/kinesin.png`. Paths are relative to this skill, not the current workspace.
-3. Read [prompt construction and scientific review](references/prompt-and-review.md). Read the relevant historical prompt under `references/approved-prompts/` only when it helps with a similar composition.
+1. Read `artifact-template.json` and [the design system](references/design-system.md). Inspect `assets/reference.png`; it outranks later series examples for color, lighting, atmosphere, and composition.
+2. Read [the reference study](references/reference-study.md). If its private reference library is present, inspect two or three examples relevant to the new composition, rather than attaching all sixteen. The screenshots guide art direction, never biological facts.
+3. Read [production and review](references/prompt-and-review.md) and [protein accuracy](references/protein-accuracy.md). Inspect a secondary series image only for a useful subject/layout precedent: `assets/collagen-portrait.png`, `assets/atp-synthase.png`, or `assets/kinesin.png`. If present, `assets/egfr-flat.png` and `assets/proteasome-flat.png` illustrate optional simpler lighting; they do not override the primary reference.
 
-The retained images are style and composition references, not validated atomic structures. Scientific errors or simplifications in a reference must not be propagated. Follow explicit user changes over these defaults.
+Resolve paths from this skill directory. Historical prompts under `references/approved-prompts/` preserve provenance; their blanket flattening instructions are superseded by this design system. Existing images are schematic artwork, not validated structures.
 
-## Make the poster
+## Produce the poster
 
-- Infer a suitable subject when the user asks for another interesting protein. Choose one clear mechanism or structural hierarchy with a strong silhouette; do not present a long menu or ask the user to select unless needed. Do not repeat the four existing subjects unless requested.
-- Honor the requested orientation. Otherwise use landscape approximately 1.414:1; portrait is 2:3. Keep the subject and layout newly designed while preserving the series' visual grammar. A portrait is recomposed, never squeezed or cropped from a landscape.
-- Briefly announce the concept and why it suits the composition. Verify specialist biological claims using primary research or authoritative structural resources such as RCSB PDB and EMBL-EBI. Identify compartment, directionality, subunit identity, and relevant mechanistic states before generating.
-- Use an available image-generation tool for raster artwork; if the host provides an **imagegen** skill, follow it. This package supplies instructions, not a model or API access. If image generation is unavailable, explain the missing capability and provide the prompt without claiming to have generated artwork. Follow the actual tool's rules for new generation versus editing and reference attachments; do not invent a reference-image parameter. Inspect retained references and describe their visible traits explicitly even when new-generation calls cannot attach them. Use exact local paths for supported edits.
-- Build a subject-specific prompt from the guide. Preserve the dark background, cyan/coral/violet palette, flat bounded shading, dominant hero, sparse meaningful annotations, and integrated scientific footer. The studio name alone is insufficient to specify the style.
-- Generate one poster by default. Inspect the result for science, text, orientation, and resemblance to the approved final images. When there is observable drift or an error, make a targeted edit that preserves successful content. Do not perform an obligatory second generation when the first already succeeds, or regenerate indefinitely. After two unsuccessful correction passes, report the remaining limitation rather than claim it is resolved.
-- Save the chosen final PNG and a concise `art-direction-and-prompts.md` containing the exact generation/refinement prompts, scientific sources, and material schematic limitations in a new named directory under the active workspace's `output/`. Never overwrite the retained reference images. Include the final image/download link and brief concept explanation. State built-in generation was used. Do not claim that a raster concept is a print-ready vector master or an experimentally derived structure.
+- Choose one compelling protein story when the user leaves the subject open. Prefer a distinctive fold, interaction, motion, or assembly; check the conversation to avoid repeating subjects unintentionally. Honor requested orientation; otherwise landscape is approximately 1.414:1 and portrait 2:3. Recompose for orientation.
+- Briefly explain the concept. Verify specialist claims with primary research and authoritative structural resources. Establish species, assembly/state, topology, chain-color mapping, and distinct magnification scales before generation. Keep these decisions concise in the working notes.
+- Use available image-generation tools, following the host's **imagegen** skill when provided. This skill supplies art direction, not a model or generation access. Inspect references and translate visible features into the prompt; obey the actual tool's attachment rules. If generation is unavailable, say so and supply the specification without claiming an image was made.
+- Default to **layered graphic depth**: bounded color shapes, hue-shifted shadows, selective highlights, coherent color families, and a quiet dark environment. Retain detailed infographics and structure-specific molecular geometry. A request for simple lighting changes shading, not chain identity, topology, information content, or color hierarchy.
+- Generate one image unless the user requests variants. Inspect actual output against the primary reference and scientific brief. Correct observed failures specifically; do not automatically flatten everything. After two unsuccessful correction passes, report the unresolved limitation instead of claiming success.
+- Save the selected PNG and `art-direction-and-prompts.md` in a new named directory under the workspace's `output/`. Record exact prompts, references actually used, structural sources, chain/property-color legends, and material limitations. Preserve retained assets. Deliver the image with a brief concept explanation; report the tool actually used and real dimensions. Do not equate upscaling with structural validation or a vector master.
 
-## The visual acceptance standard
+## Acceptance and reference handling
 
-Match the approved **final** posters, not their more glossy first drafts. At thumbnail size there should be one clear molecular subject, a bold white title, a dark field, and controlled cyan/coral contrast. At full size there should be clean silhouettes, readable captions, purposeful gold accents, and scientifically coherent detail. Preserve this design system across subjects; do not freeze the first poster's specific proteins, words, or arrangement into every new image. Visual fidelity is the target, not a promise of pixel-identical generative output.
+At thumbnail size: one dominant story, dark breathing room, distinguishable warm/cool masses, readable title. Up close: coherent folds and interfaces, persistent chain identities, deliberate highlights, useful labels and insets. Accuracy takes priority over decorative symmetry or palette convenience.
 
-## Public distribution
-
-This independent AI-assisted series credits Kurzgesagt as visual inspiration; it is not affiliated with or endorsed by the studio. Included PNGs are generated series examples, not original studio posters. Keep scientific sources and limitations with new outputs. Never label illustrative charge, hydrophobicity, or energy maps as computed results. Current preference is simple lighting and broad flat color regions.
-
-## Latest flat-color references
-
-Also inspect `assets/egfr-flat.png` for landscape work or `assets/proteasome-flat.png` for portrait machinery. These newer examples establish the preferred simpler lighting; keep older images as composition references. Preserve scientific distinctions rather than copying their simplified molecular geometry.
+This independent AI-assisted series credits Kurzgesagt as visual inspiration without implying official authorship or endorsement. The optional `assets/private-style-references/` library contains user-supplied third-party artwork for personal reference only. Exclude that entire directory from public repositories, downloads, and licensing of the original generated series. Public guidance remains usable with the retained generated examples.

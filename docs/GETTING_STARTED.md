@@ -16,7 +16,9 @@ See the current [official skill documentation](https://learn.chatgpt.com/docs/bu
 
 Example prompt:
 
-> Use $artifact-template-protein-universe-posters to create a portrait poster about human carbonic anhydrase II. Use simple flat colors and lighting. Show the fold, molecular surface and catalytic zinc pocket. Verify the mechanism with primary structural sources. Label illustrative property maps clearly. Save the final image and its prompts, sources and limitations.
+> Use $artifact-template-protein-universe-posters to create a portrait poster about human carbonic anhydrase II. Use The Protein Universe as the style anchor: layered graphic depth, warm–cool color hierarchy, selective highlights and dark breathing room. Preserve a structure-informed fold, molecular surface and catalytic zinc pocket, with consistent identity across views. Verify the mechanism with primary structural sources. Label illustrative property maps clearly. Save the final image and its prompts, sources and limitations.
+
+The default keeps detailed molecular structure and infographics. Ask for a simple-lighting variant when desired; this reduces shading without removing structural information. The public package includes generated series references and the written reference study. Personal third-party screenshot libraries are excluded from the repository and download.
 
 In a host that does not support the `$` selector, ask Codex to read the skill's SKILL.md file at its repository path and follow it.
 
